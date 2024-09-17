@@ -1,0 +1,7 @@
+{
+  "name": "storeapi-web",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
