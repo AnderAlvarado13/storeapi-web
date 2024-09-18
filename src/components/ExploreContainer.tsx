@@ -89,8 +89,8 @@ const ExploreContainer: React.FC = () => {
           {products.map(product => (
             <IonCol key={product.id} size='12' sizeMd='6' sizeLg='3'>
               <IonCard>
-                {/* <IonImg src={placeholderImage} alt={product.title} className="product-image" /> */}
-                <IonImg src={getImageUrl(product.images[0])} alt={product.title} className="product-image" />
+                <IonImg src={placeholderImage} alt={product.title} className="product-image" />
+                {/* <IonImg src={getImageUrl(product.images[0])} alt={product.title} className="product-image" /> */}
                 <IonCardHeader>
                   <IonCardSubtitle>{product.category.name}</IonCardSubtitle>
                   <IonCardTitle>{product.title}</IonCardTitle>
